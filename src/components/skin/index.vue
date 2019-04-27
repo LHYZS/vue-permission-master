@@ -20,11 +20,6 @@ export default {
   data() {
     return {
       skins: [
-        // { name: 'blue', label: this.$t('skin.blue') },
-        // { name: 'green', label: this.$t('skin.green') },
-        // { name: 'red', label: this.$t('skin.red') },
-        // { name: 'purple', label: this.$t('skin.purple') },
-        // { name: 'default', label: this.$t('skin.default') }
         { name: 'blue', label: 'blue' },
         { name: 'green', label: 'green' },
         { name: 'red', label: 'red' },

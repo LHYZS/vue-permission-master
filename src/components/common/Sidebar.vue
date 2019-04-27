@@ -34,25 +34,9 @@ export default {
       default: false
     }
   },
-  //   data() {
-  //     return {
-  //       items: [
-  //         {
-  //           icon: 'el-icon-menu',
-  //           index: 'Readme',
-  //           title: 'readme'
-  //         },
-  //         {
-  //           icon: 'el-icon-setting',
-  //           index: 'permission',
-  //           title: '权限菜单'
-  //         }
-  //       ]
-  //     }
-  //   },
   computed: {
     onRoutes() {
-      return this.$route.path.replace('/permission', '')
+      return this.$route.path.replace('/pd', '/cm', '/sm', '/cs', '/cs1', '/sc')
     }
   },
   methods: {
